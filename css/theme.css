@@ -1,0 +1,57 @@
+:root{
+    --pg:#555555;
+    --brand1:rgba(86, 44, 90, 0.5);
+    --brand2:#128D41;
+    --brand_deep:#2C1659;
+    --brand_light:#9B0062;
+    --white:#ffffff;
+    --black:#353535;
+    --border:1px solid red;
+    --gradient:linear-gradient(45deg, #2C1659 0%, #9B0062 100%);
+    --bg_gray:#f7f7f7;
+}
+
+p{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "open-sans-regular";
+}
+
+
+@font-face {
+    font-family: 'Barlow_Condensed-regular';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Regular.ttf');
+}
+@font-face {
+    font-family: 'Barlow_Condensed-Medium';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Medium.ttf');
+}
+@font-face {
+    font-family: 'Barlow_Condensed-SemiBold';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Barlow_Condensed-Bold';
+    src: url('../fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf');
+}
+
+
+
+
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
