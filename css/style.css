@@ -316,7 +316,7 @@ header{
 }
 .btn_phase{
     padding: 8px 20px;
-    background-color: var(--brand_light);
+    background-color: var(--brand1);
     color: white;
     border-radius: 10px;
 }
@@ -347,7 +347,7 @@ header{
 }
 #program_schedule .program_detail_wrap .single_propram .inner_wrap .circle_img{
     position: absolute;
-    background: var(--brand_light);
+    background: var(--brand_deep);
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -358,7 +358,7 @@ header{
     margin-bottom: 30px;
 }
 #program_schedule .program_detail_wrap .single_propram .inner_wrap .porgram_top h3{
-    color: #FF4533;
+    color:  var(--brand_deep);
     font-size: 26px;
     font-family: 'Barlow_Condensed-Medium';
     margin-bottom: 0px;
@@ -702,6 +702,7 @@ header{
 
 
 /* messages part start  */
+}
 #messages{
     padding: 60px 0px;
     background-color: var(--bg_gray);
