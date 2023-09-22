@@ -968,7 +968,7 @@ font-size: 14px;
     /* border: 1px solid red; */
     max-width: 300px;
 }
-.filtr-item .gold_container{
+ .filtr-item .gold_container{
     width: 100%;
     height: 100%;
     display: flex;
@@ -977,12 +977,14 @@ font-size: 14px;
     justify-content: start;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    background-image: url(../images/gold_medal/2.png);
+    background-image: url(../images/gold_medal/md2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
 
 }
+
+
 .filtr-item .gold_container .image_container{
     width: 120px;
     height: 120px;
