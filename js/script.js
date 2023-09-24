@@ -1,6 +1,6 @@
-// *************************** for slider* **********************
+// *************************** jQuery start **********************
 jQuery(function() { 
-    // alert("my name showed")
+    // *************************** slider **********************
     $('.banner_all').slick({
         infinite: true,
         autoplay:true,
@@ -15,14 +15,11 @@ jQuery(function() {
             return (i + 1) 
         },
       })
-      
+      // *************************** message overlay **********************
       $('.overlay').overlay()
 
+      // *************************** venobox gallery and video after click show **********************
       $('.venobox').venobox()
-
-      
-
-    
 })
 // *************************** for nav ***********************
 $('#menu').slicknav({
@@ -31,13 +28,11 @@ $('#menu').slicknav({
 });
 
 
-
-// *************************** for filter gallery ***********************
+// *************************** for filter goldmedalist ***********************
 var filterizd = $('.filtr-container').filterizr({
     gutterPixels: 10,
     filter: 'all',
   });
-// *************************** for filter gallery ***********************
 
 
 
@@ -171,7 +166,6 @@ function openModal(pdfSrc) {
     console.log(pdfSrc);
     pdfViewer.src = pdfSrc; // Set PDF source
     pdfModal.style.display = 'block';
-
 }
 
 // Function to close the modal
@@ -195,13 +189,8 @@ myList.addEventListener('click', (e) => {
   }
 });
 
-
 // Event listener for closing the modal
 document.querySelector('.close').addEventListener('click', closeModal);
 
-
-
-
-
-
-// Add a click event listener to the <ul> element
+// *************************** scroll Reveal CSS Animations **********************
+new WOW().init();

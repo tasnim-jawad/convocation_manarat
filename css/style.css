@@ -702,7 +702,7 @@ header{
 
 
 /* messages part start  */
-}
+
 #messages{
     padding: 60px 0px;
     background-color: var(--bg_gray);
@@ -1032,6 +1032,9 @@ font-size: 14px;
 
 #video{
     padding: 100px 0px;
+}
+.video_link{
+    width: 100%;
 }
 .video_container{
     position: relative;
