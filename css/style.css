@@ -185,7 +185,7 @@ header{
 }
 
 .banner_content_every{
-    padding: 30px 10px;
+    padding: 10px 10px;
     text-align: center;
     /* position: relative; */
     z-index: 10;
@@ -311,7 +311,7 @@ header{
     text-transform: uppercase;
 }
 #program_schedule{
-    padding: 90px 0px;
+    padding: 10px 0px;
     background-color: var(--bg_gray);
 }
 .btn_phase{
@@ -324,7 +324,7 @@ header{
     position: relative;
     display: block;
     overflow: hidden;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #program_schedule .program_detail_wrap::before{
     left: 8px;
@@ -389,7 +389,7 @@ header{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 110px 0px;
+    padding: 100px 0px;
     position: relative;
 }
 #achievement .overlay_achievement{
@@ -444,7 +444,7 @@ header{
 
 /* speaker part start  */
 #speaker{
-    padding: 90px 0px;
+    padding: 50px 0px;
     position: relative;
 }
 .speaker_overlay{
@@ -704,7 +704,7 @@ header{
 /* messages part start  */
 }
 #messages{
-    padding: 60px 0px;
+    padding: 100px 0px;
     background-color: var(--bg_gray);
 }
 #messages .member_body{
@@ -834,7 +834,7 @@ header{
 /* messages part end  */
 /* ********************* map part start **************** */
 #map{
-    padding:90px 0px;
+    padding:50px 0px;
 }
 #map .vanue_title{
     margin-bottom: 40px;
@@ -852,10 +852,11 @@ header{
 .map_container iframe{
     width: 100%;
 }
-/* ********************* map part end **************** */
+/*  map part end  */
 
 
-  /* Style for the footer section */
+
+/* Style for the footer section */
 footer {
     background-color: #333;
     color: #fff;
@@ -907,15 +908,16 @@ ul li {
 }
 
 ul li a {
-color: #fff;
-text-decoration: none;
-font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
 }
+
   
 /* ========Goldmedalist filter section start===== */
 
 #Goldmedalist{
-    padding: 60px 0px;
+    padding: 30px 0px;
 
 }
 .gold_medal_controller{
@@ -1015,7 +1017,7 @@ font-size: 14px;
 
 /* ********************* gallery part end **************** */
 #gallery{
-    padding-top: 140px;
+    padding-top: 50px;
     background-color: var(--bg_gray);
 }
 /* .gallery_image_container{
